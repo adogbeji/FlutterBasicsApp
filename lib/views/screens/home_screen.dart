@@ -13,7 +13,24 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Row(
-          children: [],
+          children: [
+            Text(
+              'Flutter',
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.blue,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+            Text(
+              'Firebase',
+              style: TextStyle(
+                fontSize: 24,
+                color: Colors.orange,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ],
         ),
       ),
       body: Container(
