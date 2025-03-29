@@ -13,11 +13,12 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               'Flutter',
               style: TextStyle(
-                fontSize: 20,
+                fontSize: 24,
                 color: Colors.blue,
                 fontWeight: FontWeight.bold,
               ),
@@ -37,6 +38,10 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           children: [],
         ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
       ),
     );
   }
