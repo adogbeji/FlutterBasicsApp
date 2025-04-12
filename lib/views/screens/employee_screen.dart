@@ -10,9 +10,11 @@ class EmployeeScreen extends StatefulWidget {
 class _EmployeeScreenState extends State<EmployeeScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child: Text('Employee Screen'),
+    return Scaffold(
+      body: Container(
+        child: const Column(
+          children: [],
+        ),
       ),
     );
   }
